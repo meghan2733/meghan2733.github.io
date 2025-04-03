@@ -1274,13 +1274,12 @@ input, select, textarea {
 
 			#header > *:before {
 				content: '';
-				display: block;
+				display: flex;
 				position: absolute;
-				top: calc(-3.5rem - 1px);
-				left: calc(50% - 1px);
+				top: calc(-2.5rem);
+				left: calc(50%);
 				width: 1px;
-				height: calc(3.5rem + 1px);
-				background: #ffffff;
+				height: calc(3.5rem);
 			}
 
 		#header > :first-child {
